@@ -4,19 +4,19 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="juliu"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-09-28 09:32:05 PM"/>
+        <attribute name="saved" value="2023-09-29 08:14:39 AM"/>
         <attribute name="created" value="anVsaXU7S0FJU0FSOzIwMjMtMDktMjg7MDk6MTU6NDEgUE07MjI4Ng=="/>
-        <attribute name="edited" value="anVsaXU7S0FJU0FSOzIwMjMtMDktMjg7MDk6MzI6MDUgUE07MTsyMzkz"/>
+        <attribute name="edited" value="anVsaXU7S0FJU0FSOzIwMjMtMDktMjk7MDg6MTQ6MzkgQU07MjsyMzg2"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="namagudang, AC, lantai, ketersediaanteknologi, kualitasgudang" type="String" array="False" size=""/>
+            <declare name="namagudang, ac, lantai, ketersediaanteknologi, kualitasgudang" type="String" array="False" size=""/>
             <declare name="kapasitasgudang, jumlahbuku, skorgudang" type="Integer" array="False" size=""/>
             <input variable="namagudang"/>
             <input variable="kapasitasgudang"/>
             <input variable="jumlahbuku"/>
-            <input variable="AC"/>
+            <input variable="ac"/>
             <input variable="lantai"/>
             <input variable="ketersediaanteknologi"/>
             <assign variable="skorgudang" expression="(jumlahbuku / kapasitasgudang) * 100"/>
@@ -41,7 +41,7 @@
                 </else>
             </if>
             <output expression="&quot;Informasi Gudang : &quot;" newline="True"/>
-            <output expression="namagudang &amp;&quot;|&quot; &amp;kapasitasgudang &amp;&quot;|&quot; &amp;jumlahbuku &amp;&quot;|&quot; &amp;AC &amp;&quot;|&quot; &amp;lantai &amp;&quot;|&quot; &amp;ketersediaanteknologi &amp;&quot;|&quot; &amp;skorgudang &amp;&quot;|&quot; &amp;kualitasgudang" newline="True"/>
+            <output expression="namagudang &amp;&quot;|&quot; &amp;kapasitasgudang &amp;&quot;|&quot; &amp;jumlahbuku &amp;&quot;|&quot; &amp;ac &amp;&quot;|&quot; &amp;lantai &amp;&quot;|&quot; &amp;ketersediaanteknologi &amp;&quot;|&quot; &amp;skorgudang &amp;&quot;|&quot; &amp;kualitasgudang" newline="True"/>
         </body>
     </function>
 </flowgorithm>
